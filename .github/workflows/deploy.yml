@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd stop-watch-app
+            cd /home/ubuntu/stop-watch-app
             git pull origin main
